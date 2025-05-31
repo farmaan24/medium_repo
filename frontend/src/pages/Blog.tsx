@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import  {useBlog} from "../hooks"
 import { FullBlog } from "../components/OneBlog";
 import { Appbar } from "../components/Appbar";
-import { Spinner } from "../components/spinner";
 import { BlogSkeleton } from "../components/Blogskeleton";
 
 export const Blog = () =>{

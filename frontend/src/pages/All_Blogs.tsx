@@ -1,7 +1,6 @@
 import { Appbar } from "../components/Appbar"
 import { BlogCard } from "../components/BlogCard"
 import { BlogSkeleton } from "../components/Blogskeleton";
-import { Loader } from "../components/loader";
 import { useBlogs } from "../hooks"
 
 export const All_Blogs = ()=>{
